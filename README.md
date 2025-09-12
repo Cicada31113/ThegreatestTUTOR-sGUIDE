@@ -1,2 +1,2 @@
-# ThegreatestLIMTUTOR-sGUIDE
-정리용
+# 임시은 선생님의 가르침을 정리해놓는 레포입니다
+## 1주차 정리완
