@@ -1,22 +1,23 @@
 # Python 실행 원리 & 병렬 프로그래밍 학습 정리
 
-> 오늘 강의에서 다룬 내용들을 정리한 문서입니다.  
-> 파이썬의 실행 구조, 인터프리터 vs 컴파일러, 프로세스와 스레드, 동시성(concurrency), GIL, 동기화 이슈 등을 실습 코드와 함께 설명합니다.  
-
 ---
 
 ## 목차
-1. `__name__ == "__main__"` 과 인터프리터
-2. `sys.settrace` 를 통한 실행 추적
-3. 프로세스 (multiprocessing)
-4. 스레드 (threading)
-5. 스택 vs 힙 (공유 메모리와 로컬 변수)
-6. CPU-bound vs I/O-bound 작업
-7. 너무 작은 작업 분할의 비효율
-8. 임계구역과 Lock
-9. GIL(Global Interpreter Lock)
+1. [ `__name__ == "__main__"` 과 인터프리터 ](#1-__name__--__main__-과-인터프리터)
+2. [ `sys.settrace` 를 통한 실행 추적 ](#2-syssettrace-를-통한-실행-추적)
+3. [ 프로세스 (multiprocessing) ](#3-프로세스-multiprocessing)
+4. [ 스레드 (threading) ](#4-스레드-threading)
+5. [ 스택 vs 힙 (메모리 구조) ](#5-스택-vs-힙-메모리-구조)
+6. [ CPU-bound vs I/O-bound 작업 ](#6-cpu-bound-vs-io-bound-작업)
+7. [ 너무 작은 작업 분할의 비효율 ](#7-너무-작은-작업-분할의-비효율)
+8. [ 임계구역과 Lock ](#8-임계구역과-lock)
+9. [ GIL(Global Interpreter Lock) ](#9-gilglobal-interpreter-lock)
 
 ---
+
+## 1. `__name__ == "__main__"` 과 인터프리터
+...
+
 
 ## 1. `__name__ == "__main__"` 과 인터프리터
 
