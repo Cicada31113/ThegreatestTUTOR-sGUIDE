@@ -14,11 +14,6 @@
 9. [ GIL(Global Interpreter Lock) ](#9-gilglobal-interpreter-lock)
 
 ---
-
-## 1. `__name__ == "__main__"` 과 인터프리터
-...
-
-
 ## 1. `__name__ == "__main__"` 과 인터프리터
 
 ```python
